@@ -14,9 +14,21 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: #466686;
 }
 
+.PG {
+    color:white;
+}
+
+.boxsize {
+  width: 4rem;
+}
+
+.labelfont {
+  font-size: 20px;
+  color: red
+}
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
@@ -82,8 +94,8 @@ header {
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
-  margin: 16px 16px 16px 20px;
-  padding: 14px 34px;
+  margin: 26px 16px 16px 20px;
+  padding: 14px 44px;
   text-align: center;
   cursor: pointer;
 }
@@ -97,7 +109,7 @@ button[disabled] {
   float: right;
 }
 
-#password {
+#password1 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -108,7 +120,7 @@ button[disabled] {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 85px;
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
