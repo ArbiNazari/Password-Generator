@@ -18,39 +18,41 @@
             <div class="card-header">
                 <h2>Password Generator</h2>
                 <div class="card-body">
-                    <textarea readonly id="result" placeholder="This is Your Secure Password"
-                    aria-label="Generated Password" style="width: 527px; height: 88px;"></textarea>
+                    <textarea readonly id="result" class="result" placeholder="This is Your Secure Password"
+                        aria-label="Generated Password" style="width: 527px; height: 88px;">
+                    </textarea>
                 </div>
-                <div class="settings">
-                    <div class="setting">
-                        </textarea>
-
-                        <label>Password length (8-128) </label>
-                        <input type="number" id="length" min='8' max='128' value='8' />
+                <div class="charact">
+                    </textarea>
+                    <div>
+                    <div class="charact">
+                        <label>Password Length (8-128)</label>
+                        <input type="range" id="length" class="length" min='8' max='128' value='8' />
                     </div>
-                    <div class="setting">
-                        <label>Include uppercase letters</label>
+                    <div class="charact">
+                        <label>Include Uppercase Letters</label>
                         <input type="checkbox" id="uppercase" checked />
                     </div>
-                    <div class="setting">
-                        <label>Include lowercase letters</label>
+                    <div class="charact">
+                        <label>Include Lowercase Letters</label>
                         <input type="checkbox" id="lowercase" checked />
                     </div>
-                    <div class="setting">
-                        <label>Include numbers</label>
+                    <div class="charact">
+                        <label>Include Numbers</label>
                         <input type="checkbox" id="numbers" checked />
                     </div>
-                    <div class="setting">
-                        <label>Include symbols</label>
+                    <div class="charact">
+                        <label>Include Symbols</label>
                         <input type="checkbox" id="symbols" checked />
                     </div>
                 </div>
-                <button class="btn btn-large" id="generate">
-                    Generate password
+                <button class="btn" id="generate">
+                    Generate Your Password
                 </button>
             </div>
-            <script src="assets/js/script.js">
-            </script>
+        </div>
+        <script src="assets/js/script.js">
+        </script>
 </body>
 
 </html>
